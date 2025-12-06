@@ -8,3 +8,5 @@
 ![Website Preview](./public/images/preview.png)
 
 
+![Website Screenshot](file:///C:/Users/User/Downloads/preview.png)
+
