@@ -5,5 +5,6 @@
 НЕ забудь запустить tailwind командой: npm run tailcss.
 
 
-![Website Preview](./public/preview.png)
+![Website Preview](./public/images/preview.png)
+
 
