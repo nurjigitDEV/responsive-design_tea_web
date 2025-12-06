@@ -6,7 +6,3 @@
 
 
 ![Website Preview](./publics/images/preview.png)
-
-
-![Website Screenshot](file:///C:/Users/User/Downloads/preview.png)
-
