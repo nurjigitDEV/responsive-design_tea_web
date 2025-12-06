@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=IM+Fell+Great+Primer+SC&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=IM+Fell+Great+Primer+SC&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+
+@import 'tailwindcss';
+
+/* :root {
+    --font-family: "Open Sans", sans-serif;
+    --second-family: "Cormorant", sans-serif;
+    --third-family: "IM FELL Great Primer SC", sans-serif;
+  } */
+
+@theme {
+  --font-cormorant: 'Cormorant', 'sans-serif';
+  --font-opensans: 'Open Sans', 'sans-serif';
+  --font-IM: 'IM Fell Great Primer SC', 'sans-serif';
+
+  /* 📱 Мобильные */
+  --breakpoint-xxs: 320px; /* очень маленькие телефоны (iPhone SE, старые Android) */
+  --breakpoint-xs: 480px; /* маленькие смартфоны */
+  --breakpoint-sm: 640px; /* стандартные смартфоны (iPhone, Samsung Galaxy и т.п.) */
+
+  /* 📲 Планшеты */
+  --breakpoint-md: 768px; /* маленькие планшеты (iPad mini) */
+  --breakpoint-md-lg: 896px; /* крупные планшеты (iPad Air/Pro в портретной ориентации) */
+
+  /* 💻 Ноутбуки и десктопы */
+  --breakpoint-lg: 1024px; /* маленькие ноутбуки, горизонтальный планшет */
+  --breakpoint-xl: 1280px; /* стандартные ноутбуки, небольшие мониторы */
+  --breakpoint-2xl: 1440px; /* Full HD (обычные современные мониторы) */
+  --breakpoint-3xl: 1600px; /* большие экраны, широкие ноутбуки */
+  --breakpoint-4xl: 1920px; /* Full HD и выше (стандартные рабочие мониторы) */
+
+  /* 🖥️ Очень большие */
+  --breakpoint-5xl: 2560px; /* 2K-мониторы (QHD) */
+  --breakpoint-6xl: 3840px; /* 4K-мониторы */
+
+  /* Фонт   */
+
+  /* --font-display: '', sans-serif; */
+  /* 
+  --font-display: "Oswald", sans-serif; 
+
+  --font-display: "Oswald", sans-serif; 
+
+  --font-display: "Oswald", sans-serif;  */
+}
+
+/* @theme{
+    --breakpoint-sm : 30rem
+    --breakpoint-md
+    --breakpoint-lg
+    --breakpoint-xl
+    --breakpoint-2xl
+} */
+
+/* Смартфоны — 320 пикселей, 480 и выше;
+Планшеты — 768 пикселей и выше;
+Нетбуки — 1024 пикселей и выше;
+Мониторы — 1280 пикселей, 1600, 1920 и выше. */
+
+/* 
+Префикс точки останова	Минимальная ширина	CSS
+sm	40рем (640px)	@media (width >= 40rem) { ... }
+md	48рем (768px)	@media (width >= 48rem) { ... }
+lg	64рем (1024px)	@media (width >= 64rem) { ... }
+xl	80рем (1280px)	@media (width >= 80rem) { ... }
+2xl	96рем (1536px)	@media (width >= 96rem) { ... } */
+
+/* 
+Variant	Minimum width	CSS
+@3xs	16rem (256px)	@container (width >= 16rem) { … }
+@2xs	18rem (288px)	@container (width >= 18rem) { … }
+@xs	    20rem (320px)	@container (width >= 20rem) { … }
+@sm	    24rem (384px)	@container (width >= 24rem) { … }
+@md	    28rem (448px)	@container (width >= 28rem) { … }
+@lg	    32rem (512px)	@container (width >= 32rem) { … }
+@xl	    36rem (576px)	@container (width >= 36rem) { … }
+@2xl	42rem (672px)	@container (width >= 42rem) { … }
+@3xl	48rem (768px)	@container (width >= 48rem) { … }
+@4xl	56rem (896px)	@container (width >= 56rem) { … }
+@5xl	64rem (1024px)	@container (width >= 64rem) { … }
+@6xl	72rem (1152px)	@container (width >= 72rem) { … }
+@7xl	80rem (1280px)	@container (width >= 80rem) { … } */
