@@ -5,7 +5,7 @@
 НЕ забудь запустить tailwind командой: npm run tailcss.
 
 
-![Website Preview](./public/images/preview.png)
+![Website Preview](./publics/images/preview.png)
 
 
 ![Website Screenshot](file:///C:/Users/User/Downloads/preview.png)
